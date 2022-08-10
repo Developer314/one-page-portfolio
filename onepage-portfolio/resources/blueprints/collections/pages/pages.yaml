@@ -11,21 +11,6 @@ sections:
           validate:
             - required
       -
-        handle: content
-        field:
-          type: markdown
-          display: Content
-          localizable: true
-          instructions_position: above
-          listable: hidden
-          visibility: visible
-          restrict: false
-          automatic_line_breaks: true
-          automatic_links: false
-          escape_markup: false
-          smartypants: false
-          antlers: true
-      -
         handle: author
         field:
           type: users
@@ -39,6 +24,23 @@ sections:
           type: template
           display: Template
           localizable: true
+      -
+        handle: sections
+        field:
+          antlers: true
+          default: |-
+            {{hero_section_antlr}}
+            {{information_section_template}}
+            {{story_section_antlr}}
+            {{companies_worked_section}}
+            {{service_template_section}}
+            {{project_section_template}}
+          display: Sections
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
   sidebar:
     display: Sidebar
     fields:

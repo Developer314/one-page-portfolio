@@ -12,7 +12,7 @@ small_image:
 big_image:
   - youngmansitting.png
 updated_by: e412c360-631e-4193-875a-5151f082ee98
-updated_at: 1660104963
+updated_at: 1660106687
 story_big_image:
   - couple-sofa.jpg
 story_heading: 'My Story'
@@ -378,11 +378,12 @@ project_section_template: |-
                   </div>
               </section>
 company_section_title: "Companies I've had worked"
+sections: |-
+  {{hero_section_antlr}}
+  {{information_section_template}}
+  {{story_section_antlr}}
+  {{companies_worked_section}}
+  {{service_template_section}}
+  {{project_section_template}}
 published: true
 ---
-{{hero_section_antlr}}
-{{information_section_template}}
-{{story_section_antlr}}
-{{companies_worked_section}}
-{{service_template_section}}
-{{project_section_template}}
