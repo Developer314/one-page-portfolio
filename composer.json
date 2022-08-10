@@ -1,5 +1,6 @@
 {
     "name": "Developer314/one-page-portfolio",
+    "minimum-stability": "dev",
     "extra": {
         "statamic": {
             "name": "One Page Portfolio",
