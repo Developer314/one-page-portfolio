@@ -6,5 +6,6 @@
             "description": "Onepage Portfolio starter kit based on Bootstrap 3 CSS",
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable" : true
 }
