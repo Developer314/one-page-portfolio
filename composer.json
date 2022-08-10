@@ -4,7 +4,6 @@
         "statamic": {
             "name": "One Page Portfolio",
             "description": "Onepage Portfolio starter kit based on Bootstrap 3 CSS",
-            "minimum-stability": "dev",
         }
     }
 }
