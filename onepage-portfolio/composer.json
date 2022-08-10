@@ -1,9 +1,0 @@
-{
-    "name": "revolve314-digital/onepage-portfolio",
-    "extra": {
-        "statamic": {
-            "name": "Onepage Portfolio",
-            "description": "Onepage Portfolio starter kit based on Bootstrap 3 CSS"
-        }
-    }
-}
