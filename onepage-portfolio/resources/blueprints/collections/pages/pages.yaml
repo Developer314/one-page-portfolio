@@ -1,0 +1,88 @@
+title: Pages
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: content
+        field:
+          type: markdown
+          display: Content
+          localizable: true
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: true
+      -
+        handle: author
+        field:
+          type: users
+          display: Author
+          default: current
+          localizable: true
+          max_items: 1
+      -
+        handle: template
+        field:
+          type: template
+          display: Template
+          localizable: true
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          localizable: true
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true
+  home_hero:
+    display: Hero
+    fields:
+      -
+        import: home_hero
+  my_story:
+    display: Story
+    fields:
+      -
+        import: my_story
+  information:
+    display: Information
+    fields:
+      -
+        import: information
+  company_logos:
+    display: Company
+    fields:
+      -
+        import: companies_worked
+  services:
+    display: Services
+    fields:
+      -
+        import: services
+  projects:
+    display: Projects
+    fields:
+      -
+        import: projects
