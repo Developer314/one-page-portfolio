@@ -1,8 +1,8 @@
 {
-    "name": "Developer314/OnePagePortfolio",
+    "name": "Developer314/one-page-portfolio",
     "extra": {
         "statamic": {
-            "name": "Onepage Portfolio",
+            "name": "One Page Portfolio",
             "description": "Onepage Portfolio starter kit based on Bootstrap 3 CSS"
         }
     }
